@@ -1,4 +1,102 @@
+body {
+  background-color: rgb(106, 162, 174);
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
 h1{
-  border-color: #d3e644;
-  border-style: dashed;
+  display: inline-flex;
+  font-size: 80px;
+  padding-left: 180px;
+  padding-right: 300px;
+}
+
+.header-title {
+  text-align: center;
+}
+
+.navigation {
+  text-align: center;
+  background-color: rgb(247, 247, 229);
+  padding: 15px;
+}
+
+.nav {
+  color: rgb(2, 2, 2);
+}
+
+.nav:link {
+  text-decoration: none; 
+}
+
+.nav:hover {
+  background-color: rgb(226, 246, 246);
+}
+
+li {
+  display: inline;
+  padding: 60px;
+  font-size: 27px;
+}
+
+h2 {
+  font-size: 35px;
+  text-align: center;
+}
+
+p {
+  font-size: 22px;
+}
+
+.welcome-block {
+ flex: 60%;
+}
+
+.welcome-inblock {
+  background-color: azure;
+  padding: 10px;
+  padding-right: 5px;
+}
+
+.container {
+  display: flex;
+  background-color: rgb(152, 195, 210);
+
+}
+
+.container2 {
+  display: flex;
+  background-color: rgb(152, 195, 210);
+  flex: 40%;
+}
+
+.welcome-box {
+  flex: 60%;
+  padding: 10px;
+}
+
+.fav-box {
+  padding: 10px;
+  padding-left: 5px;
+}
+
+.fav-inblock {
+  background-color: azure;
+  padding: 10px;
+  display: auto;
+  align-items: center;
+}
+
+.photos-block {
+  text-align: center;
+}
+
+.footer {
+  background-color: rgb(152, 195, 210);
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.footer-inblock {
+  background-color: azure;
+  padding: 10px;
 }
