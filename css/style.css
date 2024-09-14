@@ -82,7 +82,7 @@ p {
 .fav-inblock {
   background-color: azure;
   padding: 10px;
-  display: auto;
+  display: block;
   align-items: center;
 }
 
