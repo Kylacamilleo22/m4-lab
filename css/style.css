@@ -21,6 +21,7 @@ h1{
   text-align: center;
   background-color: #40f440;
   padding: 15px;
+  margin-bottom: 10px;
 }
 
 .nav {
@@ -107,6 +108,6 @@ p {
   padding: black;
 }
 .footer-inblock {
-  background-color: #40f440;
+  background-color: #4abf4a;
   padding: 10px;
 }
